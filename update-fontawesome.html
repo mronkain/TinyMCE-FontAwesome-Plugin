@@ -43,6 +43,7 @@ var categories = {
       "alarm-exclamation",
       "bell",
       "bell-exclamation",
+      "bell-on",
       "bell-school-slash",
       "bell-slash",
       "bells",
@@ -59,6 +60,11 @@ var categories = {
       "map-marker-exclamation",
       "radiation",
       "radiation-alt",
+      "sensor",
+      "sensor-alert",
+      "sensor-fire",
+      "sensor-on",
+      "sensor-smoke",
       "skull-crossbones",
       "star-exclamation",
       "wind-warning"
@@ -71,6 +77,7 @@ var categories = {
       "badger-honey",
       "bat",
       "cat",
+      "cat-space",
       "cow",
       "crow",
       "deer",
@@ -303,6 +310,7 @@ var categories = {
       "boombox",
       "broadcast-tower",
       "camcorder",
+      "camera-home",
       "camera-movie",
       "camera-polaroid",
       "circle",
@@ -407,15 +415,21 @@ var categories = {
       "car-side",
       "car-tilt",
       "car-wash",
+      "caravan",
+      "caravan-alt",
       "cars",
       "charging-station",
       "engine-warning",
       "flux-capacitor",
+      "garage",
+      "garage-car",
+      "garage-open",
       "gas-pump",
       "gas-pump-slash",
       "motorcycle",
       "oil-can",
       "oil-temp",
+      "rv",
       "shuttle-van",
       "steering-wheel",
       "tachometer",
@@ -435,6 +449,7 @@ var categories = {
       "tire-flat",
       "tire-pressure-warning",
       "tire-rugged",
+      "trailer",
       "truck",
       "truck-monster",
       "truck-pickup",
@@ -485,6 +500,7 @@ var categories = {
       "burger-soda",
       "cocktail",
       "coffee",
+      "coffee-pot",
       "coffee-togo",
       "flask",
       "flask-poison",
@@ -521,6 +537,9 @@ var categories = {
       "container-storage",
       "dungeon",
       "farm",
+      "garage",
+      "garage-car",
+      "garage-open",
       "gopuram",
       "home",
       "home-alt",
@@ -531,8 +550,11 @@ var categories = {
       "hospital-user",
       "hospitals",
       "hotel",
+      "house",
       "house-damage",
+      "house-day",
       "house-flood",
+      "house-night",
       "igloo",
       "industry",
       "industry-alt",
@@ -589,6 +611,7 @@ var categories = {
       "city",
       "clipboard",
       "coffee",
+      "coffee-pot",
       "columns",
       "compass",
       "computer-classic",
@@ -620,6 +643,7 @@ var categories = {
       "industry",
       "industry-alt",
       "keynote",
+      "lamp-desk",
       "landmark",
       "marker",
       "mind-share",
@@ -679,8 +703,12 @@ var categories = {
       "boot",
       "campfire",
       "campground",
+      "caravan",
+      "caravan-alt",
       "cauldron",
       "compass",
+      "faucet",
+      "faucet-drip",
       "fire",
       "fire-alt",
       "fire-smoke",
@@ -703,6 +731,7 @@ var categories = {
       "sunset",
       "toilet-paper",
       "toilet-paper-alt",
+      "trailer",
       "tree",
       "tree-alt",
       "tree-large",
@@ -1112,6 +1141,8 @@ var categories = {
       "hourglass-end",
       "hourglass-half",
       "hourglass-start",
+      "house-day",
+      "house-night",
       "snooze",
       "stopwatch",
       "watch",
@@ -1388,14 +1419,19 @@ var categories = {
       "burn",
       "burrito",
       "charging-station",
+      "fan",
       "fire",
       "fire-alt",
       "gas-pump",
       "gas-pump-slash",
+      "heat",
+      "house-day",
+      "house-night",
       "industry",
       "industry-alt",
       "leaf",
       "lightbulb",
+      "outlet",
       "plug",
       "poop",
       "power-off",
@@ -1591,6 +1627,7 @@ var categories = {
   },
   "games": {
     "icons": [
+      "alien-monster",
       "chess",
       "chess-bishop",
       "chess-bishop-alt",
@@ -1844,11 +1881,14 @@ var categories = {
   },
   "hotel": {
     "icons": [
+      "air-conditioner",
       "alarm-clock",
       "alarm-snooze",
       "baby-carriage",
       "bath",
       "bed",
+      "bed-bunk",
+      "bed-empty",
       "briefcase",
       "car",
       "car-building",
@@ -1864,15 +1904,22 @@ var categories = {
       "dryer",
       "dryer-alt",
       "dumbbell",
+      "fan-table",
       "fireplace",
       "glass-martini",
       "glass-martini-alt",
+      "heat",
       "hot-tub",
       "hotel",
       "infinity",
       "key",
+      "lamp-desk",
       "luggage-cart",
+      "microwave",
+      "outlet",
+      "oven",
       "paw-alt",
+      "refrigerator",
       "shower",
       "shuttle-van",
       "smoking",
@@ -1890,6 +1937,7 @@ var categories = {
       "umbrella-beach",
       "utensils",
       "utensils-alt",
+      "vacuum",
       "washer",
       "wheelchair",
       "wifi",
@@ -1899,13 +1947,26 @@ var categories = {
   },
   "household": {
     "icons": [
+      "air-conditioner",
       "bath",
       "bed",
+      "bed-alt",
+      "bed-bunk",
+      "bed-empty",
+      "bell",
+      "bell-on",
       "blanket",
       "blender",
+      "blinds",
+      "blinds-open",
+      "blinds-raised",
       "books",
+      "camera-home",
+      "cctv",
       "chair",
       "chair-office",
+      "coffee",
+      "coffee-pot",
       "couch",
       "door-closed",
       "door-open",
@@ -1913,17 +1974,66 @@ var categories = {
       "dryer-alt",
       "dungeon",
       "fan",
+      "fan-table",
+      "faucet",
+      "faucet-drip",
       "fireplace",
       "flashlight",
+      "garage",
+      "garage-car",
+      "garage-open",
+      "heat",
+      "house",
+      "house-day",
+      "house-leave",
+      "house-night",
+      "house-return",
+      "house-signal",
       "lamp",
+      "lamp-desk",
+      "lamp-floor",
+      "light-ceiling",
+      "light-switch",
+      "light-switch-off",
+      "light-switch-on",
+      "lightbulb",
+      "lightbulb-on",
       "loveseat",
       "mailbox",
+      "microwave",
+      "outlet",
+      "oven",
+      "plug",
+      "refrigerator",
+      "sensor",
+      "sensor-alert",
+      "sensor-fire",
+      "sensor-on",
+      "sensor-smoke",
       "shower",
+      "signal-stream",
+      "siren",
+      "siren-on",
+      "snowflake",
+      "sort-circle",
+      "sort-circle-down",
+      "sort-circle-up",
+      "speaker",
+      "speakers",
+      "sprinkler",
+      "temperature-down",
+      "temperature-up",
       "toilet-paper",
       "toilet-paper-alt",
       "tv",
+      "tv-alt",
       "tv-retro",
-      "washer"
+      "vacuum",
+      "vacuum-robot",
+      "washer",
+      "webcam",
+      "window-frame",
+      "window-frame-open"
     ],
     "label": "Household"
   },
@@ -2607,11 +2717,15 @@ var categories = {
       "box-open",
       "box-up",
       "boxes-alt",
+      "caravan",
+      "caravan-alt",
       "container-storage",
       "couch",
       "dolly",
       "dolly-empty",
       "fragile",
+      "house-leave",
+      "house-return",
       "lamp",
       "loveseat",
       "people-carry",
@@ -2623,11 +2737,13 @@ var categories = {
       "sign",
       "suitcase",
       "tape",
+      "trailer",
       "truck-container",
       "truck-couch",
       "truck-loading",
       "truck-moving",
       "truck-ramp",
+      "vacuum",
       "wine-glass"
     ],
     "label": "Moving"
@@ -3147,6 +3263,7 @@ var categories = {
     "icons": [
       "ankh",
       "atom",
+      "bahai",
       "bible",
       "church",
       "cross",
@@ -3155,7 +3272,6 @@ var categories = {
       "gopuram",
       "hamsa",
       "hanukiah",
-      "haykal",
       "jedi",
       "journal-whills",
       "kaaba",
@@ -3228,7 +3344,12 @@ var categories = {
   },
   "science-fiction": {
     "icons": [
+      "alien",
+      "alien-monster",
+      "atom",
       "atom-alt",
+      "cat-space",
+      "comet",
       "drone",
       "drone-alt",
       "eclipse",
@@ -3236,7 +3357,9 @@ var categories = {
       "flux-capacitor",
       "galactic-republic",
       "galactic-senate",
+      "galaxy",
       "globe",
+      "hand-spock",
       "jedi",
       "jedi-order",
       "journal-whills",
@@ -3244,13 +3367,43 @@ var categories = {
       "moon",
       "moon-stars",
       "old-republic",
+      "planet-moon",
+      "planet-ringed",
+      "police-box",
+      "portal-enter",
+      "portal-exit",
+      "radar",
+      "raygun",
       "robot",
       "rocket",
+      "rocket-launch",
       "satellite",
       "satellite-dish",
+      "solar-system",
       "space-shuttle",
+      "space-station-moon",
+      "space-station-moon-alt",
+      "star-shooting",
+      "starfighter",
+      "starfighter-alt",
       "stars",
+      "starship",
+      "starship-freighter",
+      "sword-laser",
+      "sword-laser-alt",
+      "swords-laser",
+      "telescope",
+      "transporter",
+      "transporter-1",
+      "transporter-2",
+      "transporter-3",
+      "transporter-empty",
+      "ufo",
+      "ufo-beam",
+      "user-alien",
       "user-astronaut",
+      "user-robot",
+      "user-visor",
       "watch-calculator"
     ],
     "label": "Science Fiction"
@@ -3286,6 +3439,8 @@ var categories = {
       "shield",
       "shield-alt",
       "shield-check",
+      "siren",
+      "siren-on",
       "unlock",
       "unlock-alt",
       "usb-drive",
@@ -3411,6 +3566,7 @@ var categories = {
       "atom",
       "atom-alt",
       "badge",
+      "bahai",
       "bullseye-arrow",
       "certificate",
       "circle-notch",
@@ -3421,7 +3577,6 @@ var categories = {
       "dharmachakra",
       "eclipse-alt",
       "fan",
-      "haykal",
       "hurricane",
       "life-ring",
       "palette",
@@ -3724,6 +3879,8 @@ var categories = {
       "bus-alt",
       "cactus",
       "car-bus",
+      "caravan",
+      "caravan-alt",
       "cars",
       "cocktail",
       "concierge-bell",
@@ -3750,6 +3907,7 @@ var categories = {
       "plane-arrival",
       "plane-departure",
       "rings-wedding",
+      "rv",
       "shuttle-van",
       "spa",
       "suitcase",
@@ -3888,6 +4046,7 @@ var categories = {
       "plane",
       "plane-alt",
       "rocket",
+      "rocket-launch",
       "rv",
       "ship",
       "shopping-cart",
@@ -3897,6 +4056,10 @@ var categories = {
       "snowmobile",
       "snowplow",
       "space-shuttle",
+      "starfighter",
+      "starfighter-alt",
+      "starship",
+      "starship-freighter",
       "subway",
       "taxi",
       "tractor",
@@ -3906,6 +4069,8 @@ var categories = {
       "truck-monster",
       "truck-pickup",
       "truck-plow",
+      "ufo",
+      "ufo-beam",
       "wheelchair"
     ],
     "label": "Vehicles"
@@ -3936,6 +4101,7 @@ var categories = {
       "eclipse-alt",
       "fire-smoke",
       "fog",
+      "heat",
       "house-flood",
       "humidity",
       "hurricane",
@@ -3959,10 +4125,12 @@ var categories = {
       "sun-haze",
       "sunrise",
       "sunset",
+      "temperature-down",
       "temperature-frigid",
       "temperature-high",
       "temperature-hot",
       "temperature-low",
+      "temperature-up",
       "thunderstorm",
       "thunderstorm-moon",
       "thunderstorm-sun",
@@ -4045,7 +4213,7 @@ var categories = {
     ],
     "label": "Writing"
   }
-};
+}
 
 var icons = {
   "500px": {
@@ -4337,6 +4505,32 @@ var icons = {
     "unicode": "f36b",
     "voted": false
   },
+  "air-conditioner": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Air Conditioner",
+    "search": {
+      "terms": [
+        "ac",
+        "cool",
+        "heat",
+        "heat pump",
+        "hvac",
+        "mini-split",
+        "temperature",
+        "unit"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f8f4",
+    "voted": false
+  },
   "air-freshener": {
     "changes": [
       "5.2.0"
@@ -4566,6 +4760,58 @@ var icons = {
       "duotone"
     ],
     "unicode": "f6b0",
+    "voted": false
+  },
+  "alien": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Alien",
+    "search": {
+      "terms": [
+        "ET",
+        "extraterrestrial",
+        "humanoid",
+        "monster",
+        "space",
+        "strange",
+        "ufo"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f8f5",
+    "voted": false
+  },
+  "alien-monster": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Alien Monster",
+    "search": {
+      "terms": [
+        "ET",
+        "extraterrestrial",
+        "humanoid",
+        "monster",
+        "space",
+        "space invader",
+        "strange",
+        "ufo",
+        "video game"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f8f6",
     "voted": false
   },
   "align-center": {
@@ -4896,7 +5142,8 @@ var icons = {
   "android": {
     "changes": [
       "3.2",
-      "5.0.0"
+      "5.0.0",
+      "5.12.0"
     ],
     "label": "Android",
     "search": {
@@ -6501,15 +6748,20 @@ var icons = {
   },
   "atom": {
     "changes": [
-      "5.2.0"
+      "5.2.0",
+      "5.12.0"
     ],
     "label": "Atom",
     "search": {
       "terms": [
         "atheism",
         "chemistry",
+        "electron",
         "ion",
+        "isotope",
+        "neutron",
         "nuclear",
+        "proton",
         "science"
       ]
     },
@@ -6524,16 +6776,22 @@ var icons = {
   },
   "atom-alt": {
     "changes": [
-      "5.2.0"
+      "5.2.0",
+      "5.12.0"
     ],
     "label": "Atom Alt",
     "search": {
       "terms": [
         "atheism",
         "chemistry",
+        "electron",
         "ion",
+        "isotope",
+        "neutron",
         "nuclear",
-        "science"
+        "proton",
+        "science",
+        "space"
       ]
     },
     "styles": [
@@ -7041,6 +7299,28 @@ var icons = {
     "unicode": "f847",
     "voted": false
   },
+  "bahai": {
+    "changes": [
+      "5.3.0",
+      "5.12.0"
+    ],
+    "label": "Bahá'í",
+    "search": {
+      "terms": [
+        "bahai",
+        "bahá'í",
+        "star"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f666",
+    "voted": false
+  },
   "balance-scale": {
     "changes": [
       "4.4",
@@ -7068,7 +7348,9 @@ var icons = {
   },
   "balance-scale-left": {
     "changes": [
-      "5.0.13"
+      "5.0.13",
+      "5.9.0",
+      "5.12.0"
     ],
     "label": "Balance Scale (Left-Weighted)",
     "search": {
@@ -7091,7 +7373,9 @@ var icons = {
   },
   "balance-scale-right": {
     "changes": [
-      "5.0.13"
+      "5.0.13",
+      "5.9.0",
+      "5.12.0"
     ],
     "label": "Balance Scale (Right-Weighted)",
     "search": {
@@ -7530,7 +7814,8 @@ var icons = {
   "bath": {
     "changes": [
       "4.7",
-      "5.0.0"
+      "5.0.0",
+      "5.12.0"
     ],
     "label": "Bath",
     "search": {
@@ -7729,6 +8014,7 @@ var icons = {
     "search": {
       "terms": [
         "lodging",
+        "mattress",
         "rest",
         "sleep",
         "travel"
@@ -7741,6 +8027,81 @@ var icons = {
       "duotone"
     ],
     "unicode": "f236",
+    "voted": false
+  },
+  "bed-alt": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Alternate Bed",
+    "search": {
+      "terms": [
+        "double",
+        "king",
+        "lodging",
+        "mattress",
+        "pillows",
+        "queen",
+        "rest",
+        "sleep",
+        "travel"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f8f7",
+    "voted": false
+  },
+  "bed-bunk": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Bunkbed",
+    "search": {
+      "terms": [
+        "lodging",
+        "mattress",
+        "rest",
+        "siblings",
+        "sleep",
+        "sleepover",
+        "travel"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f8f8",
+    "voted": false
+  },
+  "bed-empty": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Bed Empty",
+    "search": {
+      "terms": [
+        "lodging",
+        "mattress",
+        "rest",
+        "sleep",
+        "travel"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f8f9",
     "voted": false
   },
   "beer": {
@@ -7850,6 +8211,29 @@ var icons = {
       "duotone"
     ],
     "unicode": "f848",
+    "voted": false
+  },
+  "bell-on": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Bell On",
+    "search": {
+      "terms": [
+        "alarm",
+        "alert",
+        "chime",
+        "notification",
+        "reminder"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f8fa",
     "voted": false
   },
   "bell-plus": {
@@ -8384,6 +8768,69 @@ var icons = {
       "duotone"
     ],
     "unicode": "f29d",
+    "voted": false
+  },
+  "blinds": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Blinds",
+    "search": {
+      "terms": [
+        "privacy",
+        "shutter",
+        "window"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f8fb",
+    "voted": false
+  },
+  "blinds-open": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Blinds Open",
+    "search": {
+      "terms": [
+        "privacy",
+        "shutter",
+        "window"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f8fc",
+    "voted": false
+  },
+  "blinds-raised": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Blinds Raised",
+    "search": {
+      "terms": [
+        "privacy",
+        "shutter",
+        "window"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f8fd",
     "voted": false
   },
   "blog": {
@@ -10898,6 +11345,32 @@ var icons = {
     "unicode": "f332",
     "voted": false
   },
+  "camera-home": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Camera Home",
+    "search": {
+      "terms": [
+        "chat",
+        "conference call",
+        "facetime",
+        "podcast",
+        "security",
+        "video",
+        "videoconferencing",
+        "youtube"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f8fe",
+    "voted": false
+  },
   "camera-movie": {
     "changes": [
       "5.11.0"
@@ -11479,6 +11952,52 @@ var icons = {
     "unicode": "f5e6",
     "voted": false
   },
+  "caravan": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Caravan",
+    "search": {
+      "terms": [
+        "camper",
+        "motor home",
+        "rv",
+        "trailer",
+        "travel"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f8ff",
+    "voted": true
+  },
+  "caravan-alt": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Caravan Alternate",
+    "search": {
+      "terms": [
+        "camper",
+        "motor home",
+        "rv",
+        "trailer",
+        "travel"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f900",
+    "voted": false
+  },
   "caret-circle-down": {
     "changes": [
       "5.0.0"
@@ -11927,6 +12446,30 @@ var icons = {
     ],
     "unicode": "f6be",
     "voted": true
+  },
+  "cat-space": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Space Cat",
+    "search": {
+      "terms": [
+        "animal",
+        "astronaut",
+        "cosmonaut",
+        "fauna",
+        "meow",
+        "space"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f901",
+    "voted": false
   },
   "cauldron": {
     "changes": [
@@ -14728,6 +15271,31 @@ var icons = {
     "unicode": "f0f4",
     "voted": false
   },
+  "coffee-pot": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Coffee Pot",
+    "search": {
+      "terms": [
+        "beverage",
+        "breakfast",
+        "brew",
+        "cafe",
+        "carafe",
+        "drink",
+        "morning"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f902",
+    "voted": false
+  },
   "coffee-togo": {
     "changes": [
       "5.4.0"
@@ -14901,6 +15469,33 @@ var icons = {
       "duotone"
     ],
     "unicode": "f0db",
+    "voted": false
+  },
+  "comet": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Comet",
+    "search": {
+      "terms": [
+        "asteroid",
+        "dust",
+        "ice",
+        "meteor",
+        "orbit",
+        "rock",
+        "shooting star",
+        "solar system",
+        "space"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f903",
     "voted": false
   },
   "comment": {
@@ -16045,7 +16640,8 @@ var icons = {
   "compress-alt": {
     "changes": [
       "1",
-      "5.0.0"
+      "5.0.0",
+      "5.12.0"
     ],
     "label": "Alternate Compress",
     "search": {
@@ -18382,7 +18978,8 @@ var icons = {
   },
   "dog": {
     "changes": [
-      "5.4.0"
+      "5.4.0",
+      "5.12.0"
     ],
     "label": "Dog",
     "search": {
@@ -18408,7 +19005,8 @@ var icons = {
   },
   "dog-leashed": {
     "changes": [
-      "5.4.0"
+      "5.4.0",
+      "5.12.0"
     ],
     "label": "Leashed Dog",
     "search": {
@@ -19785,7 +20383,8 @@ var icons = {
   "envelope-open-dollar": {
     "changes": [
       "5.3.0",
-      "5.10.1"
+      "5.10.1",
+      "5.12.0"
     ],
     "label": "Envelope Open-dollar",
     "search": {
@@ -19813,7 +20412,8 @@ var icons = {
   "envelope-open-text": {
     "changes": [
       "5.3.0",
-      "5.10.1"
+      "5.10.1",
+      "5.12.0"
     ],
     "label": "Envelope Open-text",
     "search": {
@@ -20221,7 +20821,8 @@ var icons = {
   "expand-alt": {
     "changes": [
       "1",
-      "5.0.0"
+      "5.0.0",
+      "5.12.0"
     ],
     "label": "Alternate Expand",
     "search": {
@@ -20619,6 +21220,31 @@ var icons = {
     "unicode": "f863",
     "voted": true
   },
+  "fan-table": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Fan Table",
+    "search": {
+      "terms": [
+        "ac",
+        "air conditioning",
+        "blade",
+        "blower",
+        "cool",
+        "hot",
+        "oscillate"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f904",
+    "voted": false
+  },
   "fantasy-flight-games": {
     "changes": [
       "5.4.0"
@@ -20709,6 +21335,52 @@ var icons = {
       "duotone"
     ],
     "unicode": "f050",
+    "voted": false
+  },
+  "faucet": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Faucet",
+    "search": {
+      "terms": [
+        "drip",
+        "house",
+        "kitchen",
+        "sink",
+        "water"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f905",
+    "voted": false
+  },
+  "faucet-drip": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Faucet Drip",
+    "search": {
+      "terms": [
+        "drip",
+        "house",
+        "kitchen",
+        "sink",
+        "water"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f906",
     "voted": false
   },
   "fax": {
@@ -22100,7 +22772,8 @@ var icons = {
     "changes": [
       "4.4",
       "5.0.0",
-      "5.0.1"
+      "5.0.1",
+      "5.12.0"
     ],
     "label": "Firefox",
     "search": {
@@ -22112,6 +22785,22 @@ var icons = {
       "brands"
     ],
     "unicode": "f269",
+    "voted": false
+  },
+  "firefox-browser": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Firefox Browser",
+    "search": {
+      "terms": [
+        "browser"
+      ]
+    },
+    "styles": [
+      "brands"
+    ],
+    "unicode": "f907",
     "voted": false
   },
   "fireplace": {
@@ -22664,7 +23353,8 @@ var icons = {
   },
   "flux-capacitor": {
     "changes": [
-      "5.11.0"
+      "5.11.0",
+      "5.12.0"
     ],
     "label": "Flux Capacitor",
     "search": {
@@ -23237,9 +23927,10 @@ var icons = {
   "free-code-camp": {
     "changes": [
       "4.7",
-      "5.0.0"
+      "5.0.0",
+      "5.12.0"
     ],
-    "label": "Free Code Camp",
+    "label": "freeCodeCamp",
     "search": {
       "terms": []
     },
@@ -23506,6 +24197,31 @@ var icons = {
     "unicode": "f50d",
     "voted": false
   },
+  "galaxy": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Galaxy",
+    "search": {
+      "terms": [
+        "black hole",
+        "cosmic",
+        "nebula",
+        "solar system",
+        "space",
+        "spiral",
+        "universe"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f908",
+    "voted": false
+  },
   "game-board": {
     "changes": [
       "5.9.0"
@@ -23624,6 +24340,78 @@ var icons = {
       "duotone"
     ],
     "unicode": "f8bc",
+    "voted": false
+  },
+  "garage": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Garage",
+    "search": {
+      "terms": [
+        "auto",
+        "car",
+        "door",
+        "storage",
+        "structure",
+        "warehouse"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f909",
+    "voted": false
+  },
+  "garage-car": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Garage Car",
+    "search": {
+      "terms": [
+        "auto",
+        "car",
+        "door",
+        "storage",
+        "structure",
+        "warehouse"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f90a",
+    "voted": false
+  },
+  "garage-open": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Garage Open",
+    "search": {
+      "terms": [
+        "auto",
+        "car",
+        "door",
+        "storage",
+        "structure",
+        "warehouse"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f90b",
     "voted": false
   },
   "gas-pump": {
@@ -25203,7 +25991,8 @@ var icons = {
     "changes": [
       "5.1.0",
       "5.11.0",
-      "5.11.1"
+      "5.11.1",
+      "5.12.0"
     ],
     "label": "Winking Face With Tongue",
     "search": {
@@ -26189,7 +26978,8 @@ var icons = {
   "hand-spock": {
     "changes": [
       "4.4",
-      "5.0.0"
+      "5.0.0",
+      "5.12.0"
     ],
     "label": "Spock (Hand)",
     "search": {
@@ -26606,27 +27396,6 @@ var icons = {
     "unicode": "f6e8",
     "voted": false
   },
-  "haykal": {
-    "changes": [
-      "5.3.0"
-    ],
-    "label": "Haykal",
-    "search": {
-      "terms": [
-        "bahai",
-        "bahá'í",
-        "star"
-      ]
-    },
-    "styles": [
-      "solid",
-      "regular",
-      "light",
-      "duotone"
-    ],
-    "unicode": "f666",
-    "voted": false
-  },
   "hdd": {
     "changes": [
       "2",
@@ -27019,6 +27788,33 @@ var icons = {
       "duotone"
     ],
     "unicode": "f21e",
+    "voted": false
+  },
+  "heat": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Heat",
+    "search": {
+      "terms": [
+        "ac",
+        "air conditioner",
+        "boiler",
+        "heating",
+        "hot",
+        "sauna",
+        "spa",
+        "summer",
+        "temperature"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f90c",
     "voted": false
   },
   "helicopter": {
@@ -27882,6 +28678,29 @@ var icons = {
     "unicode": "f251",
     "voted": false
   },
+  "house": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "House",
+    "search": {
+      "terms": [
+        "abode",
+        "building",
+        "family",
+        "home",
+        "residence"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f90d",
+    "voted": false
+  },
   "house-damage": {
     "changes": [
       "5.4.0"
@@ -27903,6 +28722,31 @@ var icons = {
       "duotone"
     ],
     "unicode": "f6f1",
+    "voted": false
+  },
+  "house-day": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "House Day",
+    "search": {
+      "terms": [
+        "abode",
+        "building",
+        "family",
+        "home",
+        "residence",
+        "solar",
+        "sun"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f90e",
     "voted": false
   },
   "house-flood": {
@@ -27927,6 +28771,106 @@ var icons = {
       "duotone"
     ],
     "unicode": "f74f",
+    "voted": false
+  },
+  "house-leave": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "House Leave",
+    "search": {
+      "terms": [
+        "abode",
+        "building",
+        "depart",
+        "family",
+        "home",
+        "residence",
+        "work"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f90f",
+    "voted": false
+  },
+  "house-night": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "House Night",
+    "search": {
+      "terms": [
+        "abode",
+        "building",
+        "family",
+        "home",
+        "moon",
+        "residence",
+        "stars"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f910",
+    "voted": false
+  },
+  "house-return": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "House Return",
+    "search": {
+      "terms": [
+        "abode",
+        "arrival",
+        "building",
+        "family",
+        "home",
+        "residence"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f911",
+    "voted": false
+  },
+  "house-signal": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "House Signal",
+    "search": {
+      "terms": [
+        "abode",
+        "building",
+        "connect",
+        "family",
+        "home",
+        "residence",
+        "smart home",
+        "wifi"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f912",
     "voted": false
   },
   "houzz": {
@@ -28267,6 +29211,20 @@ var icons = {
     ],
     "unicode": "f47f",
     "voted": false
+  },
+  "ideal": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "iDeal",
+    "search": {
+      "terms": []
+    },
+    "styles": [
+      "brands"
+    ],
+    "unicode": "f913",
+    "voted": true
   },
   "igloo": {
     "changes": [
@@ -29671,6 +30629,48 @@ var icons = {
     "unicode": "f4ca",
     "voted": false
   },
+  "lamp-desk": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Lamp Desk",
+    "search": {
+      "terms": [
+        "bright",
+        "furniture",
+        "light"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f914",
+    "voted": false
+  },
+  "lamp-floor": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Lamp Floor",
+    "search": {
+      "terms": [
+        "bright",
+        "furniture",
+        "light"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f915",
+    "voted": false
+  },
   "landmark": {
     "changes": [
       "5.3.0"
@@ -30361,6 +31361,91 @@ var icons = {
     "unicode": "f1cd",
     "voted": false
   },
+  "light-ceiling": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Light Ceiling",
+    "search": {
+      "terms": [
+        "bright",
+        "furniture",
+        "light",
+        "overhead"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f916",
+    "voted": false
+  },
+  "light-switch": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Light Switch",
+    "search": {
+      "terms": [
+        "light",
+        "off",
+        "on"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f917",
+    "voted": false
+  },
+  "light-switch-off": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Light Switch-off",
+    "search": {
+      "terms": [
+        "light",
+        "off",
+        "on"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f918",
+    "voted": false
+  },
+  "light-switch-on": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Light Switch-on",
+    "search": {
+      "terms": [
+        "light",
+        "off",
+        "on"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f919",
+    "voted": false
+  },
   "lightbulb": {
     "changes": [
       "3",
@@ -30433,7 +31518,8 @@ var icons = {
   },
   "lightbulb-on": {
     "changes": [
-      "5.3.0"
+      "5.3.0",
+      "5.12.0"
     ],
     "label": "Lightbulb On",
     "search": {
@@ -32626,7 +33712,8 @@ var icons = {
   },
   "meteor": {
     "changes": [
-      "5.5.0"
+      "5.5.0",
+      "5.12.0"
     ],
     "label": "Meteor",
     "search": {
@@ -32646,6 +33733,20 @@ var icons = {
     ],
     "unicode": "f753",
     "voted": false
+  },
+  "microblog": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Micro.blog",
+    "search": {
+      "terms": []
+    },
+    "styles": [
+      "brands"
+    ],
+    "unicode": "f91a",
+    "voted": true
   },
   "microchip": {
     "changes": [
@@ -32835,6 +33936,28 @@ var icons = {
     ],
     "unicode": "f3ca",
     "voted": true
+  },
+  "microwave": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Microwave",
+    "search": {
+      "terms": [
+        "chef",
+        "cook",
+        "kitchen",
+        "nuke"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f91b",
+    "voted": false
   },
   "mind-share": {
     "changes": [
@@ -33558,6 +34681,7 @@ var icons = {
         "clear",
         "crescent",
         "lunar",
+        "space",
         "star"
       ]
     },
@@ -34607,6 +35731,51 @@ var icons = {
       "duotone"
     ],
     "unicode": "f03b",
+    "voted": false
+  },
+  "outlet": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Outlet",
+    "search": {
+      "terms": [
+        "electricity",
+        "energy",
+        "plug"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f91c",
+    "voted": false
+  },
+  "oven": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Oven",
+    "search": {
+      "terms": [
+        "bake",
+        "broiler",
+        "convection",
+        "cook",
+        "kitchen",
+        "stove"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f91d",
     "voted": false
   },
   "overline": {
@@ -36200,7 +37369,8 @@ var icons = {
   },
   "piano": {
     "changes": [
-      "5.11.0"
+      "5.11.0",
+      "5.12.0"
     ],
     "label": "Piano",
     "search": {
@@ -36275,7 +37445,8 @@ var icons = {
     "changes": [
       "4.6",
       "5.0.0",
-      "5.0.10"
+      "5.0.10",
+      "5.12.0"
     ],
     "label": "Pied Piper Logo",
     "search": {
@@ -36293,7 +37464,7 @@ var icons = {
       "5.0.0",
       "5.7.0"
     ],
-    "label": "Alternate Pied Piper Logo",
+    "label": "Alternate Pied Piper Logo (Old)",
     "search": {
       "terms": []
     },
@@ -36307,7 +37478,7 @@ var icons = {
     "changes": [
       "5.0.10"
     ],
-    "label": "Pied Piper-hat",
+    "label": "Pied Piper Hat (Old)",
     "search": {
       "terms": [
         "clothing"
@@ -36332,6 +37503,20 @@ var icons = {
       "brands"
     ],
     "unicode": "f1a7",
+    "voted": false
+  },
+  "pied-piper-square": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Pied Piper Square Logo (Old)",
+    "search": {
+      "terms": []
+    },
+    "styles": [
+      "brands"
+    ],
+    "unicode": "f91e",
     "voted": false
   },
   "pig": {
@@ -36636,6 +37821,53 @@ var icons = {
     "unicode": "f5b0",
     "voted": false
   },
+  "planet-moon": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Planet with Moon",
+    "search": {
+      "terms": [
+        "earth",
+        "natural satellite",
+        "orbit",
+        "solar system",
+        "space",
+        "universe"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f91f",
+    "voted": false
+  },
+  "planet-ringed": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Ringed Planet",
+    "search": {
+      "terms": [
+        "orbit",
+        "saturn",
+        "solar system",
+        "space",
+        "universe"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f920",
+    "voted": false
+  },
   "play": {
     "changes": [
       "1",
@@ -36705,7 +37937,8 @@ var icons = {
   "plug": {
     "changes": [
       "4.2",
-      "5.0.0"
+      "5.0.0",
+      "5.12.0"
     ],
     "label": "Plug",
     "search": {
@@ -36931,6 +38164,28 @@ var icons = {
     "unicode": "f758",
     "voted": false
   },
+  "police-box": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Police Box",
+    "search": {
+      "terms": [
+        "doctor who",
+        "tardis",
+        "time and relative dimension in space",
+        "time machine"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f921",
+    "voted": false
+  },
   "poll": {
     "changes": [
       "5.3.0",
@@ -37106,6 +38361,52 @@ var icons = {
       "duotone"
     ],
     "unicode": "f819",
+    "voted": false
+  },
+  "portal-enter": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Portal Enter",
+    "search": {
+      "terms": [
+        "enter",
+        "open",
+        "teleport",
+        "transporter",
+        "travel"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f922",
+    "voted": false
+  },
+  "portal-exit": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Portal Exit",
+    "search": {
+      "terms": [
+        "close",
+        "enter",
+        "teleport",
+        "transporter",
+        "travel"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f923",
     "voted": false
   },
   "portrait": {
@@ -37888,6 +39189,32 @@ var icons = {
     "unicode": "f45a",
     "voted": false
   },
+  "radar": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Radar",
+    "search": {
+      "terms": [
+        "blip",
+        "find",
+        "lidar",
+        "radio",
+        "scan",
+        "search",
+        "sonar",
+        "space"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f924",
+    "voted": false
+  },
   "radiation": {
     "changes": [
       "5.6.0",
@@ -38141,6 +39468,30 @@ var icons = {
       "brands"
     ],
     "unicode": "f2d9",
+    "voted": false
+  },
+  "raygun": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Raygun",
+    "search": {
+      "terms": [
+        "flash gordon",
+        "laser",
+        "pew pew",
+        "phaser",
+        "space",
+        "stun"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f925",
     "voted": false
   },
   "react": {
@@ -38459,6 +39810,30 @@ var icons = {
       "duotone"
     ],
     "unicode": "f2f9",
+    "voted": false
+  },
+  "refrigerator": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Refrigerator",
+    "search": {
+      "terms": [
+        "cold",
+        "cool",
+        "freezer",
+        "fridge",
+        "icebox",
+        "kitchen"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f926",
     "voted": false
   },
   "registered": {
@@ -38915,7 +40290,8 @@ var icons = {
   },
   "robot": {
     "changes": [
-      "5.0.13"
+      "5.0.13",
+      "5.12.0"
     ],
     "label": "Robot",
     "search": {
@@ -38939,7 +40315,8 @@ var icons = {
     "changes": [
       "3.1",
       "5.0.0",
-      "5.7.0"
+      "5.7.0",
+      "5.12.0"
     ],
     "label": "rocket",
     "search": {
@@ -38959,6 +40336,32 @@ var icons = {
       "duotone"
     ],
     "unicode": "f135",
+    "voted": false
+  },
+  "rocket-launch": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Rocket Launch",
+    "search": {
+      "terms": [
+        "aircraft",
+        "app",
+        "ignition",
+        "jet",
+        "launch",
+        "nasa",
+        "space",
+        "thrusters"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f927",
     "voted": false
   },
   "rocketchat": {
@@ -39448,7 +40851,8 @@ var icons = {
   "safari": {
     "changes": [
       "4.4",
-      "5.0.0"
+      "5.0.0",
+      "5.12.0"
     ],
     "label": "Safari",
     "search": {
@@ -39540,7 +40944,8 @@ var icons = {
   "satellite": {
     "changes": [
       "5.6.0",
-      "5.10.1"
+      "5.10.1",
+      "5.12.0"
     ],
     "label": "Satellite",
     "search": {
@@ -39562,7 +40967,8 @@ var icons = {
   },
   "satellite-dish": {
     "changes": [
-      "5.6.0"
+      "5.6.0",
+      "5.12.0"
     ],
     "label": "Satellite Dish",
     "search": {
@@ -39572,7 +40978,8 @@ var icons = {
         "hardware",
         "receiver",
         "saucer",
-        "signal"
+        "signal",
+        "space"
       ]
     },
     "styles": [
@@ -40331,6 +41738,126 @@ var icons = {
     "unicode": "f87f",
     "voted": true
   },
+  "sensor": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Sensor",
+    "search": {
+      "terms": [
+        "alarm",
+        "alert",
+        "carbon monoxide",
+        "detector",
+        "fire",
+        "smoke"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f928",
+    "voted": false
+  },
+  "sensor-alert": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Sensor Alert",
+    "search": {
+      "terms": [
+        "alarm",
+        "alert",
+        "carbon monoxide",
+        "detector",
+        "fire",
+        "smoke"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f929",
+    "voted": false
+  },
+  "sensor-fire": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Sensor Fire",
+    "search": {
+      "terms": [
+        "alarm",
+        "alert",
+        "carbon monoxide",
+        "detector",
+        "fire",
+        "smoke"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f92a",
+    "voted": false
+  },
+  "sensor-on": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Sensor On",
+    "search": {
+      "terms": [
+        "alarm",
+        "alert",
+        "carbon monoxide",
+        "detector",
+        "fire",
+        "smoke"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f92b",
+    "voted": false
+  },
+  "sensor-smoke": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Sensor Smoke",
+    "search": {
+      "terms": [
+        "alarm",
+        "alert",
+        "carbon monoxide",
+        "detector",
+        "fire",
+        "smoke"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f92c",
+    "voted": false
+  },
   "server": {
     "changes": [
       "4.3",
@@ -40371,7 +41898,8 @@ var icons = {
   },
   "shapes": {
     "changes": [
-      "5.2.0"
+      "5.2.0",
+      "5.12.0"
     ],
     "label": "Shapes",
     "search": {
@@ -40935,7 +42463,8 @@ var icons = {
   "shower": {
     "changes": [
       "4.7",
-      "5.0.0"
+      "5.0.0",
+      "5.12.0"
     ],
     "label": "Shower",
     "search": {
@@ -41573,6 +43102,54 @@ var icons = {
       "brands"
     ],
     "unicode": "f215",
+    "voted": false
+  },
+  "siren": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Siren",
+    "search": {
+      "terms": [
+        "alarm",
+        "alert",
+        "ambulance",
+        "loud",
+        "police",
+        "warning"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f92d",
+    "voted": false
+  },
+  "siren-on": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Siren On",
+    "search": {
+      "terms": [
+        "alarm",
+        "alert",
+        "ambulance",
+        "loud",
+        "police",
+        "warning"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f92e",
     "voted": false
   },
   "sistrix": {
@@ -42633,6 +44210,30 @@ var icons = {
     "unicode": "f5ba",
     "voted": false
   },
+  "solar-system": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Solar System",
+    "search": {
+      "terms": [
+        "galaxy",
+        "orbit",
+        "planets",
+        "space",
+        "sun",
+        "universe"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f92f",
+    "voted": false
+  },
   "sort": {
     "changes": [
       "2",
@@ -42866,6 +44467,81 @@ var icons = {
       "duotone"
     ],
     "unicode": "f885",
+    "voted": false
+  },
+  "sort-circle": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Sort Circle",
+    "search": {
+      "terms": [
+        "down",
+        "elevator",
+        "lower",
+        "raise",
+        "temperature",
+        "thermostat",
+        "up"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f930",
+    "voted": false
+  },
+  "sort-circle-down": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Sort Circle Down",
+    "search": {
+      "terms": [
+        "down",
+        "elevator",
+        "lower",
+        "raise",
+        "temperature",
+        "thermostat",
+        "up"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f931",
+    "voted": false
+  },
+  "sort-circle-up": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Sort Circle Up",
+    "search": {
+      "terms": [
+        "down",
+        "elevator",
+        "lower",
+        "raise",
+        "temperature",
+        "thermostat",
+        "up"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f932",
     "voted": false
   },
   "sort-down": {
@@ -43293,6 +44969,7 @@ var icons = {
         "machine",
         "nasa",
         "rocket",
+        "space",
         "transportation"
       ]
     },
@@ -43303,6 +44980,57 @@ var icons = {
       "duotone"
     ],
     "unicode": "f197",
+    "voted": false
+  },
+  "space-station-moon": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Moon Space Station",
+    "search": {
+      "terms": [
+        "death star",
+        "empire",
+        "galen erso",
+        "kyber crystal",
+        "laser",
+        "not a moon",
+        "secret weapon",
+        "star wars"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f933",
+    "voted": false
+  },
+  "space-station-moon-alt": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Moon Space Station Under Construction",
+    "search": {
+      "terms": [
+        "death star",
+        "empire",
+        "kyber crystal",
+        "laser",
+        "not a moon",
+        "star wars",
+        "under construction"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f934",
     "voted": false
   },
   "spade": {
@@ -43632,6 +45360,29 @@ var icons = {
       "duotone"
     ],
     "unicode": "f5bd",
+    "voted": false
+  },
+  "sprinkler": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Sprinkler",
+    "search": {
+      "terms": [
+        "grass",
+        "lawn",
+        "shower",
+        "spray",
+        "water"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f935",
     "voted": false
   },
   "square": {
@@ -44049,16 +45800,88 @@ var icons = {
     "unicode": "f621",
     "voted": false
   },
+  "star-shooting": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Star Shooting",
+    "search": {
+      "terms": [
+        "asteroid",
+        "comet",
+        "meteor",
+        "space",
+        "wish"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f936",
+    "voted": false
+  },
+  "starfighter": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Starfighter",
+    "search": {
+      "terms": [
+        "luke skywalker",
+        "rebel",
+        "spaceship",
+        "star wars",
+        "x-wing"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f937",
+    "voted": false
+  },
+  "starfighter-alt": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Starfighter Alternate",
+    "search": {
+      "terms": [
+        "darth vader",
+        "empire",
+        "spaceship",
+        "star wars",
+        "tie fighter"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f938",
+    "voted": false
+  },
   "stars": {
     "changes": [
-      "5.5.0"
+      "5.5.0",
+      "5.12.0"
     ],
     "label": "Stars",
     "search": {
       "terms": [
+        "favorite",
         "galaxy",
         "magic",
-        "night"
+        "night",
+        "space"
       ]
     },
     "styles": [
@@ -44068,6 +45891,58 @@ var icons = {
       "duotone"
     ],
     "unicode": "f762",
+    "voted": false
+  },
+  "starship": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Starship",
+    "search": {
+      "terms": [
+        "engage",
+        "enterprise",
+        "james t kirk",
+        "jean-luc picard",
+        "make it so",
+        "ncc-1701",
+        "spacecraft",
+        "spaceship",
+        "star trek"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f939",
+    "voted": false
+  },
+  "starship-freighter": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Starship Freighter",
+    "search": {
+      "terms": [
+        "chewbacca",
+        "han solo",
+        "millenium falcon",
+        "rebel",
+        "spaceship",
+        "star wars",
+        "yt-1300"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f93a",
     "voted": false
   },
   "staylinked": {
@@ -45147,6 +47022,52 @@ var icons = {
     "unicode": "f71c",
     "voted": false
   },
+  "sword-laser": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Sword Laser",
+    "search": {
+      "terms": [
+        "jedi",
+        "lightsaber",
+        "luke skywalker",
+        "rebel",
+        "star wars"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f93b",
+    "voted": false
+  },
+  "sword-laser-alt": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Sword Laser Alternate",
+    "search": {
+      "terms": [
+        "darth vader",
+        "empire",
+        "lightsaber",
+        "sith",
+        "star wars"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f93c",
+    "voted": false
+  },
   "swords": {
     "changes": [
       "5.4.0"
@@ -45171,6 +47092,34 @@ var icons = {
       "duotone"
     ],
     "unicode": "f71d",
+    "voted": false
+  },
+  "swords-laser": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Swords Laser",
+    "search": {
+      "terms": [
+        "clash",
+        "darth vader",
+        "duel",
+        "fight",
+        "jedi",
+        "lightsaber",
+        "luke skywalker",
+        "rebel",
+        "sith",
+        "star wars"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f93d",
     "voted": false
   },
   "symfony": {
@@ -46050,6 +47999,57 @@ var icons = {
     "unicode": "f3fe",
     "voted": false
   },
+  "telescope": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Telescope",
+    "search": {
+      "terms": [
+        "astronomy",
+        "lens",
+        "look",
+        "microscope",
+        "observatory",
+        "scope",
+        "search",
+        "space",
+        "view"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f93e",
+    "voted": false
+  },
+  "temperature-down": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Temperature Down",
+    "search": {
+      "terms": [
+        "air conditioner",
+        "cold",
+        "heater",
+        "mercury",
+        "thermometer",
+        "winter"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f93f",
+    "voted": false
+  },
   "temperature-frigid": {
     "changes": [
       "5.5.0"
@@ -46138,6 +48138,30 @@ var icons = {
       "duotone"
     ],
     "unicode": "f76b",
+    "voted": false
+  },
+  "temperature-up": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Temperature Up",
+    "search": {
+      "terms": [
+        "air conditioner",
+        "cold",
+        "heater",
+        "mercury",
+        "thermometer",
+        "winter"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f940",
     "voted": false
   },
   "tencent-weibo": {
@@ -47706,6 +49730,28 @@ var icons = {
     "unicode": "f63a",
     "voted": false
   },
+  "trailer": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Trailer",
+    "search": {
+      "terms": [
+        "carry",
+        "haul",
+        "moving",
+        "travel"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f941",
+    "voted": true
+  },
   "train": {
     "changes": [
       "4.3",
@@ -47791,6 +49837,122 @@ var icons = {
       "duotone"
     ],
     "unicode": "f225",
+    "voted": false
+  },
+  "transporter": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Transporter",
+    "search": {
+      "terms": [
+        "move",
+        "teleport",
+        "transfer",
+        "translocate",
+        "travel"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f942",
+    "voted": false
+  },
+  "transporter-1": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Transporter 1",
+    "search": {
+      "terms": [
+        "move",
+        "teleport",
+        "transfer",
+        "translocate",
+        "travel"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f943",
+    "voted": false
+  },
+  "transporter-2": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Transporter 2",
+    "search": {
+      "terms": [
+        "move",
+        "teleport",
+        "transfer",
+        "translocate",
+        "travel"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f944",
+    "voted": false
+  },
+  "transporter-3": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Transporter 3",
+    "search": {
+      "terms": [
+        "move",
+        "teleport",
+        "transfer",
+        "translocate",
+        "travel"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f945",
+    "voted": false
+  },
+  "transporter-empty": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Transporter Empty",
+    "search": {
+      "terms": [
+        "complete",
+        "move",
+        "teleport",
+        "transfer",
+        "translocate",
+        "travel"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f946",
     "voted": false
   },
   "trash": {
@@ -48746,7 +50908,8 @@ var icons = {
   "twitch": {
     "changes": [
       "4.2",
-      "5.0.0"
+      "5.0.0",
+      "5.12.0"
     ],
     "label": "Twitch",
     "search": {
@@ -48866,6 +51029,62 @@ var icons = {
     ],
     "unicode": "f7df",
     "voted": true
+  },
+  "ufo": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "U.F.O.",
+    "search": {
+      "terms": [
+        "abduct",
+        "alien",
+        "extraterrestrial",
+        "flying saucer",
+        "space",
+        "spacecraft",
+        "t-craft",
+        "travel",
+        "unidentified flying object"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f947",
+    "voted": false
+  },
+  "ufo-beam": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "U.F.O. with Beam",
+    "search": {
+      "terms": [
+        "abduct",
+        "alien",
+        "extraterrestrial",
+        "flying saucer",
+        "probe",
+        "space",
+        "spacecraft",
+        "t-craft",
+        "tractor beam",
+        "travel",
+        "unidentified flying object"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f948",
+    "voted": false
   },
   "uikit": {
     "changes": [
@@ -49073,6 +51292,20 @@ var icons = {
     ],
     "unicode": "f404",
     "voted": false
+  },
+  "unity": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Unity 3D",
+    "search": {
+      "terms": []
+    },
+    "styles": [
+      "brands"
+    ],
+    "unicode": "f949",
+    "voted": true
   },
   "universal-access": {
     "changes": [
@@ -49368,6 +51601,31 @@ var icons = {
       "duotone"
     ],
     "unicode": "f007",
+    "voted": false
+  },
+  "user-alien": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "User Alien",
+    "search": {
+      "terms": [
+        "ET",
+        "extraterrestrial",
+        "humanoid",
+        "monster",
+        "space",
+        "strange",
+        "ufo"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f94a",
     "voted": false
   },
   "user-alt": {
@@ -49905,7 +52163,8 @@ var icons = {
   },
   "user-nurse": {
     "changes": [
-      "5.7.0"
+      "5.7.0",
+      "5.12.0"
     ],
     "label": "Nurse",
     "search": {
@@ -49950,6 +52209,29 @@ var icons = {
       "duotone"
     ],
     "unicode": "f234",
+    "voted": false
+  },
+  "user-robot": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "User Robot",
+    "search": {
+      "terms": [
+        "android",
+        "automate",
+        "computer",
+        "cyborg",
+        "rosie"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f94b",
     "voted": false
   },
   "user-secret": {
@@ -50096,6 +52378,26 @@ var icons = {
       "duotone"
     ],
     "unicode": "f235",
+    "voted": false
+  },
+  "user-visor": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "User Visor",
+    "search": {
+      "terms": [
+        "geordi la forge",
+        "star trek"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f94c",
     "voted": false
   },
   "users": {
@@ -50388,6 +52690,52 @@ var icons = {
       "brands"
     ],
     "unicode": "f408",
+    "voted": false
+  },
+  "vacuum": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Vacuum",
+    "search": {
+      "terms": [
+        "cleaning",
+        "dyson",
+        "floor",
+        "suck",
+        "suction"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f94d",
+    "voted": false
+  },
+  "vacuum-robot": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "Robot Vacuum",
+    "search": {
+      "terms": [
+        "cleaning",
+        "floor",
+        "roomba",
+        "suck",
+        "suction"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f94e",
     "voted": false
   },
   "value-absolute": {
@@ -52185,6 +54533,52 @@ var icons = {
     "unicode": "f410",
     "voted": false
   },
+  "window-frame": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "House Window",
+    "search": {
+      "terms": [
+        "door",
+        "glass",
+        "pane",
+        "view",
+        "window"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f94f",
+    "voted": false
+  },
+  "window-frame-open": {
+    "changes": [
+      "5.12.0"
+    ],
+    "label": "House Window Open",
+    "search": {
+      "terms": [
+        "door",
+        "glass",
+        "pane",
+        "view",
+        "window"
+      ]
+    },
+    "styles": [
+      "solid",
+      "regular",
+      "light",
+      "duotone"
+    ],
+    "unicode": "f950",
+    "voted": false
+  },
   "window-maximize": {
     "changes": [
       "4.7",
@@ -52876,8 +55270,7 @@ var icons = {
     "unicode": "f63f",
     "voted": true
   }
-};
-
+}
             // Sort the icons alphabetically
             // Sort the icons into categories
 // {name:"Glass",id:"glass",unicode:"f000",created:1,filter:["martini","drink","bar","alcohol","liquor"],categories:["Web Application Icons"]
